@@ -1,0 +1,31 @@
+{
+  "name": "test-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "node --watch src/api/api.js",
+    "test": "node --test test/e2e/api.test.js",
+    "test:dev": "node --test --watch test/e2e/api.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusstaiguer/test-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusstaiguer/test-e2e/issues"
+  },
+  "homepage": "https://github.com/viniciusstaiguer/test-e2e#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}
