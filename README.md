@@ -28,6 +28,7 @@ Este projeto é um exemplo de configuração de um servidor Node.js com autentic
 Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 
 ```plaintext
+BASE_URL=your_base_url
 JWT_SECRET_KEY=your_secret_key_here
 ```
 
