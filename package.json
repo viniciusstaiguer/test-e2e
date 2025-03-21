@@ -7,10 +7,13 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "22.14.0"
+  },
   "scripts": {
     "dev": "node --watch src/api/api.js",
     "test": "node --test test/e2e/api.test.js",
-    "test:dev": "node --test --watch test/e2e/api.test.js"
+    "test:dev": "node --test --watch test/e2e/*.test.js"
   },
   "repository": {
     "type": "git",
